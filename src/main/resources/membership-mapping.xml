@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+      http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+    <mapping wildcard="false" map-id="MembershipCreated">
+        <class-a>java.util.Map</class-a>
+        <class-b>com.cxloyalty.gce.entity.helix.StageMembership</class-b>
+        <field>
+            <a>membershipNumber</a>
+            <b>membershipNum</b>
+        </field>
+        <field>
+            <a>primaryMemberId</a>
+            <b>prmMemId</b>
+        </field>
+    </mapping>
+</mappings>

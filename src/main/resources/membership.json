@@ -1,0 +1,96 @@
+{
+  "id": null,
+  "entityId": "478139ff-a78c-4975-b527-6aaf21b6ef33",
+  "entityType": "Membership",
+  "type": "MembershipCancelled",
+  "tenantId": 2324,
+  "sourceSystem": "membership-service",
+  "correlationId": "43d57398-2b8d-4e52-b474-dfc20be7a9e8",
+  "timestamp": "2020-04-07T10:42:50.171974Z",
+  "currentStepId": null,
+  "routingSlip": null,
+  "servicePayload": null,
+  "sourcePayload": {
+    "id": "478139ff-a78c-4975-b527-6aaf21b6ef33",
+    "membershipNumber": "RBS1234567891235",
+    "startDate": "2020-04-07T10:36:19.592143Z",
+    "endDate": "2020-04-07T10:42:50.046951Z",
+    "primaryMemberId": "6ecd8c99-4036-403d-bf84-cf8400f67812",
+    "attributes": {
+      "attrib1": "value1",
+      "attrib2": "false"
+    },
+    "sortCode": "S12345",
+    "accountNumber": "67891235",
+    "jointAccountIndicator": "N",
+    "active": false,
+    "members": [{
+      "id": "6ecd8c99-4036-403d-bf84-cf8400f67812",
+      "startDate": "2020-03-03T11:13:14.382Z",
+      "memberNumber": "RBS1234567891235.0",
+      "externalRefId": "4",
+      "deceasedIndicator": null,
+      "endDate": "2020-03-03T11:13:14.382Z",
+      "paymentVehicles": [],
+      "webEnabled": true,
+      "status": [{
+        "code": "ACTIVE",
+        "reason": "New membership",
+        "startDate": "2020-03-03T11:13:14.382Z",
+        "endDate": "2020-04-07T10:42:50.047298Z"
+      }
+      ]
+    }, {
+      "id": "6ecd8c99-4036-403d-bf84-cf8400f67812",
+      "startDate": "2020-03-03T11:13:14.382Z",
+      "memberNumber": "RBS1234567891235.0",
+      "externalRefId": "4",
+      "deceasedIndicator": null,
+      "endDate": "2020-03-03T11:13:14.382Z",
+      "paymentVehicles": [],
+      "webEnabled": true,
+      "status": [{
+        "code": "CANCELLED",
+        "reason": "Cancelled By Partner",
+        "startDate": "2020-04-07T10:42:50.047303Z",
+        "endDate": "2020-04-07T10:42:50.047305Z"
+      }
+      ]
+    }
+    ],
+    "subscriptions": [{
+      "startDate": "2020-04-07T10:36:19.600728Z",
+      "endDate": "2020-04-07T10:42:50.041530Z",
+      "attributes": {
+        "attrib1": "value1",
+        "attrib2": "false"
+      },
+      "solicitationId": "12143",
+      "reason": "Subscription created",
+      "code": "ACTIVE"
+    }, {
+      "startDate": "2020-04-07T10:42:50.041530Z",
+      "endDate": "2020-04-07T10:42:50.041530Z",
+      "attributes": {
+        "attrib1": "value1",
+        "attrib2": "false"
+      },
+      "solicitationId": "12143",
+      "reason": "Cancelled By Partner",
+      "code": "CANCELLED"
+    }
+    ],
+    "status": [{
+      "code": "ACTIVE",
+      "reason": null,
+      "startDate": "2020-04-07T10:36:19.592143Z",
+      "endDate": "2020-04-07T10:42:50.046843Z"
+    }, {
+      "code": "CANCELLED",
+      "reason": "Cancelled By Partner",
+      "startDate": "2020-04-07T10:42:50.046930Z",
+      "endDate": "2020-04-07T10:42:50.046933Z"
+    }
+    ]
+  }
+}
